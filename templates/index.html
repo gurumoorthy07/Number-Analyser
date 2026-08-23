@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+        <title>Number Analyzer</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    </head>
+    <body>
+        
+ <div class="container">
+
+    <h1>🔢 Number Analyzer</h1>
+
+    <p class="subtitle">
+        Analyze a number and discover its mathematical properties
+    </p>
+
+    <div class="analyzer-card">
+
+        <div class="input-section">
+
+            <input
+                type="number"
+                id="number"
+                placeholder="Enter a positive number"
+            >
+
+            <button id="analyzeBtn">
+                Analyze
+            </button>
+
+        </div>
+
+        <h2 class="result-title">Analysis Result</h2>
+
+        <div id="errorMessage" class="error-message"></div>
+
+
+        <div id="result">
+            <p>Enter a number and click Analyze</p>
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer>
+    © 2026 Number Analyzer · Numbers never lie 😎
+</footer>
+
+
+        <script src="{{ url_for('static',filename='script.js') }}"></script>
+    </body>
+</html>
