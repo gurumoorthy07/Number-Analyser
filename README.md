@@ -32,4 +32,4 @@ How to Run
 
 Author
 
-Guru Moorthy
+Gurumoorthy
