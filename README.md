@@ -23,12 +23,8 @@ Technologies Used
 - CSS
 - JavaScript
 
-How to Run
-
-1. Clone the repository.
-2. Install the required Python packages.
-3. Run the Flask application.
-4. Open the application in your browser.
+Live Demo
+[Open Number Analyser](https://number-analyser-scdo.onrender.com)
 
 Author
 
