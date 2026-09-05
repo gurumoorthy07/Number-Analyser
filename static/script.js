@@ -130,10 +130,6 @@ analyzeBtn.addEventListener("click", async () => {
                     ${formatBoolean(data.data["Armstrong Number"])}
                 </span>
             </p>
-
-            <p>
-                Factors: ${data.data.Factors}
-            </p>
         `;
 
     } catch (error) {

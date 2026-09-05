@@ -36,11 +36,7 @@ def num_analyzer(num):
 
     amst_sum=sum(int(digit)**digit_count for digit in str(num))
     amst_sum=(num==amst_sum)
-
-    factors=[]
-    for i in range(1,num+1):
-        if num%i==0:
-            factors.append(i)
+ 
 
  
 
@@ -53,8 +49,8 @@ def num_analyzer(num):
             "Largest Number": largest_digit,
             "Smallest Number":smallest_digit,
             "No Of Digits": digit_count,
-            "Armstrong Number": amst_sum,
-            "Factors": factors}
+            "Armstrong Number": amst_sum
+            }
 
 
 @app.route("/analyze/<num>")
